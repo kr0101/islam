@@ -2,3 +2,14 @@
     background: linear-gradient(-25deg, #30fa6d 50%, rgba(60, 255, 0, 0.479) 30%);
 
 }
+.file h{
+    color:red
+}
+
+#sp-1{
+    color: red;
+}
+#par{
+ font-weight: 600;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
