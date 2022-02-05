@@ -1,9 +1,23 @@
+body{
+    background-color: #222;
+}
+
 #text{
     background: linear-gradient(-25deg, #30fa6d 50%, rgba(60, 255, 0, 0.479) 30%);
 
 }
-.file h{
-    color:red
+.file h3{
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+}
+.file p{
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+    font-size: 17px;
+    border: 4px solid rgb(8, 173, 58);
+    text-align: center;
+    padding: 4px;
+    
 }
 
 #sp-1{
@@ -12,4 +26,30 @@
 #par{
  font-weight: 600;
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.pager{
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+  text-align: center;
+   align-items: center;
+  border: 6px solid #222;
+  background-color: rgba(5, 206, 38, 0.562)
+
+}
+.r{
+    color:black;
+   text-decoration: none;
+   font-weight: 800;
+   font-size: 17px;
+   font-family:'Amiri', serif;
+   
+   width: 290px;
+}
+.r:hover{
+    background-color: rgba(30, 255, 0, 0.856);
+  color: rgb(246, 243, 247);
+   cursor: pointer;
 }
